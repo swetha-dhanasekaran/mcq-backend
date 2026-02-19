@@ -1,0 +1,26 @@
+# Compiled files - CRITICAL!
+target/
+*.class
+*.jar
+*.war
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Environment files - SECRETS!
+.env
+.env.local
+.env.production
+application-local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
